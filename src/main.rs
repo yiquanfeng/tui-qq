@@ -1,4 +1,3 @@
-// src/main.rs
 use std::io::{self, stdout};
 use crossterm::{
     event::{self, Event, KeyCode, KeyEventKind},
@@ -182,7 +181,6 @@ fn ui(f: &mut Frame, app: &App) {
     // 2. 消息列表区域
     let messages: Vec<ListItem> = app.messages
         .iter()
-        .rev()  // 反转，最新消息在底部
         .skip(app.scroll)  // 跳过滚动的位置
         .map(|msg| {
             let content = vec![
