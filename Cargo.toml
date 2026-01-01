@@ -1,0 +1,13 @@
+[package]
+name = "tui-qq"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ratatui = "0.24"           # TUI框架
+crossterm = "0.27"         # 终端后端
+tokio = { version = "1.35", features = ["full"] }  # 异步运行时
+serde = { version = "1.0", features = ["derive"] } # 序列化
+tokio-tungstenite = "0.20" # WebSocket客户端
+reqwest = "0.11"           # HTTP客户端
+sled = "0.34"              # 本地数据存储
