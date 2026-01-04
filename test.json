@@ -1,0 +1,317 @@
+{
+    "status": "ok",
+    "retcode": 0,
+    "data": {
+        "messages": [
+            {
+                "self_id": 3775141348,
+                "user_id": 1513969442,
+                "time": 1767425812,
+                "message_id": 1359845011,
+                "message_seq": 1359845011,
+                "real_id": 1359845011,
+                "real_seq": "76770",
+                "message_type": "group",
+                "sender": {
+                    "user_id": 1513969442,
+                    "nickname": "cppHusky",
+                    "card": "",
+                    "role": "admin"
+                },
+                "raw_message": "[CQ:json,data={\"app\":\"com.tencent.tuwen.lua\"&#44;\"bizsrc\":\"qqconnect.sdkshare\"&#44;\"config\":{\"ctime\":1767425812&#44;\"forward\":1&#44;\"token\":\"bb466b420180ec02c695496695964b70\"&#44;\"type\":\"normal\"}&#44;\"extra\":{\"app_type\":1&#44;\"appid\":102021671&#44;\"uin\":1513969442}&#44;\"meta\":{\"news\":{\"app_type\":1&#44;\"appid\":102021671&#44;\"ctime\":1767425812&#44;\"desc\":\"A customizable TUI display/login manager…\"&#44;\"jumpUrl\":\"https://github.com/coastalwhite/lemurs\"&#44;\"preview\":\"https://pic.ugcimg.cn/ba804043db74c601141cf0c82fe7fba6/jpg1\"&#44;\"tag\":\"外部分享\"&#44;\"tagIcon\":\"https://p.qpic.cn/qqconnect/0/app_102021671_1664264719/100?max-age=2592000&amp;t=0\"&#44;\"title\":\"GitHub - coastalwhite/lemurs: …\"&#44;\"uin\":1513969442}}&#44;\"prompt\":\"&#91;分享&#93;GitHub - coastalwhite/lemurs: …\"&#44;\"ver\":\"0.0.0.1\"&#44;\"view\":\"news\"}]",
+                "font": 14,
+                "sub_type": "normal",
+                "message": [
+                    {
+                        "type": "json",
+                        "data": {
+                            "data": "{\"app\":\"com.tencent.tuwen.lua\",\"bizsrc\":\"qqconnect.sdkshare\",\"config\":{\"ctime\":1767425812,\"forward\":1,\"token\":\"bb466b420180ec02c695496695964b70\",\"type\":\"normal\"},\"extra\":{\"app_type\":1,\"appid\":102021671,\"uin\":1513969442},\"meta\":{\"news\":{\"app_type\":1,\"appid\":102021671,\"ctime\":1767425812,\"desc\":\"A customizable TUI display/login manager…\",\"jumpUrl\":\"https://github.com/coastalwhite/lemurs\",\"preview\":\"https://pic.ugcimg.cn/ba804043db74c601141cf0c82fe7fba6/jpg1\",\"tag\":\"外部分享\",\"tagIcon\":\"https://p.qpic.cn/qqconnect/0/app_102021671_1664264719/100?max-age=2592000&t=0\",\"title\":\"GitHub - coastalwhite/lemurs: …\",\"uin\":1513969442}},\"prompt\":\"[分享]GitHub - coastalwhite/lemurs: …\",\"ver\":\"0.0.0.1\",\"view\":\"news\"}"
+                        }
+                    }
+                ],
+                "message_format": "array",
+                "post_type": "message",
+                "group_id": 979885968
+            },
+            {
+                "self_id": 3775141348,
+                "user_id": 1513969442,
+                "time": 1767425874,
+                "message_id": 1042150727,
+                "message_seq": 1042150727,
+                "real_id": 1042150727,
+                "real_seq": "76771",
+                "message_type": "group",
+                "sender": {
+                    "user_id": 1513969442,
+                    "nickname": "cppHusky",
+                    "card": "",
+                    "role": "admin"
+                },
+                "raw_message": "這個dm比ly好用；雖然默認樣式醜了點。",
+                "font": 14,
+                "sub_type": "normal",
+                "message": [
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "    這個dm比ly好用；雖然默認樣式醜了點。"
+                        }
+                    }
+                ],
+                "message_format": "array",
+                "post_type": "message",
+                "group_id": 979885968
+            },
+            {
+                "self_id": 3775141348,
+                "user_id": 2652718149,
+                "time": 1767426325,
+                "message_id": 843133385,
+                "message_seq": 843133385,
+                "real_id": 843133385,
+                "real_seq": "76772",
+                "message_type": "group",
+                "sender": {
+                    "user_id": 2652718149,
+                    "nickname": "MareDevi",
+                    "card": "",
+                    "role": "member"
+                },
+                "raw_message": "感觉跟greetd差不多",
+                "font": 14,
+                "sub_type": "normal",
+                "message": [
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "感觉跟greetd差不多"
+                        }
+                    }
+                ],
+                "message_format": "array",
+                "post_type": "message",
+                "group_id": 979885968
+            },
+            {
+                "self_id": 3775141348,
+                "user_id": 1683244866,
+                "time": 1767435507,
+                "message_id": 1738731205,
+                "message_seq": 1738731205,
+                "real_id": 1738731205,
+                "real_seq": "76773",
+                "message_type": "group",
+                "sender": {
+                    "user_id": 1683244866,
+                    "nickname": "晴雨的经纬",
+                    "card": "",
+                    "role": "member"
+                },
+                "raw_message": "[CQ:image,file=9C7A30DF85513789C97EA2D18CB38200.png,sub_type=0,url=https://gchat.qpic.cn/download?appid=1407&amp;fileid=EhRm4Tid3ZbLXtYF9_tCAIcwn709Nxi8wgYg_woomvqmrJLvkQMyBHByb2RQgL2jAVoQwWZu-dwRnPFdMruzPby0SXoCoOeCAQJneg&amp;rkey=CAESMA9jJzP5kre4F8Q1iSgQJ3PLyfUtC4paqkSbay-1yQwJK9ZSGWda7HvxAPzqok-wyg&amp;spec=0,file_size=106812]",
+                "font": 14,
+                "sub_type": "normal",
+                "message": [
+                    {
+                        "type": "image",
+                        "data": {
+                            "summary": "",
+                            "file": "9C7A30DF85513789C97EA2D18CB38200.png",
+                            "sub_type": 0,
+                            "url": "https://gchat.qpic.cn/download?appid=1407&fileid=EhRm4Tid3ZbLXtYF9_tCAIcwn709Nxi8wgYg_woomvqmrJLvkQMyBHByb2RQgL2jAVoQwWZu-dwRnPFdMruzPby0SXoCoOeCAQJneg&rkey=CAESMA9jJzP5kre4F8Q1iSgQJ3PLyfUtC4paqkSbay-1yQwJK9ZSGWda7HvxAPzqok-wyg&spec=0",
+                            "file_size": "106812"
+                        }
+                    }
+                ],
+                "message_format": "array",
+                "post_type": "message",
+                "group_id": 979885968
+            },
+            {
+                "self_id": 3775141348,
+                "user_id": 2703794350,
+                "time": 1767436559,
+                "message_id": 1087008131,
+                "message_seq": 1087008131,
+                "real_id": 1087008131,
+                "real_seq": "76774",
+                "message_type": "group",
+                "sender": {
+                    "user_id": 2703794350,
+                    "nickname": "ふらまりん",
+                    "card": "average Plan⑨ enjoyer",
+                    "role": "member"
+                },
+                "raw_message": "where nixos",
+                "font": 14,
+                "sub_type": "normal",
+                "message": [
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "where nixos"
+                        }
+                    }
+                ],
+                "message_format": "array",
+                "post_type": "message",
+                "group_id": 979885968
+            },
+            {
+                "self_id": 3775141348,
+                "user_id": 2652718149,
+                "time": 1767524094,
+                "message_id": 1356998408,
+                "message_seq": 1356998408,
+                "real_id": 1356998408,
+                "real_seq": "76775",
+                "message_type": "group",
+                "sender": {
+                    "user_id": 2652718149,
+                    "nickname": "MareDevi",
+                    "card": "",
+                    "role": "member"
+                },
+                "raw_message": "[CQ:file,file=2026-01-04 18-52-46.mp4,file_id=/e47e9a49-5e72-4830-a40f-a336af4b4abc,file_size=81193113]",
+                "font": 14,
+                "sub_type": "normal",
+                "message": [
+                    {
+                        "type": "file",
+                        "data": {
+                            "file": "2026-01-04 18-52-46.mp4",
+                            "file_id": "/e47e9a49-5e72-4830-a40f-a336af4b4abc",
+                            "file_size": "81193113"
+                        }
+                    }
+                ],
+                "message_format": "array",
+                "post_type": "message",
+                "group_id": 979885968
+            },
+            {
+                "self_id": 3775141348,
+                "user_id": 2652718149,
+                "time": 1767524099,
+                "message_id": 1596583037,
+                "message_seq": 1596583037,
+                "real_id": 1596583037,
+                "real_seq": "76776",
+                "message_type": "group",
+                "sender": {
+                    "user_id": 2652718149,
+                    "nickname": "MareDevi",
+                    "card": "",
+                    "role": "member"
+                },
+                "raw_message": "搓了个简单的bilibili tui",
+                "font": 14,
+                "sub_type": "normal",
+                "message": [
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "搓了个简单的bilibili tui"
+                        }
+                    }
+                ],
+                "message_format": "array",
+                "post_type": "message",
+                "group_id": 979885968
+            },
+            {
+                "self_id": 3775141348,
+                "user_id": 2652718149,
+                "time": 1767524107,
+                "message_id": 907215922,
+                "message_seq": 907215922,
+                "real_id": 907215922,
+                "real_seq": "76777",
+                "message_type": "group",
+                "sender": {
+                    "user_id": 2652718149,
+                    "nickname": "MareDevi",
+                    "card": "",
+                    "role": "member"
+                },
+                "raw_message": "用mpv播放视频",
+                "font": 14,
+                "sub_type": "normal",
+                "message": [
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "用mpv播放视频"
+                        }
+                    }
+                ],
+                "message_format": "array",
+                "post_type": "message",
+                "group_id": 979885968
+            },
+            {
+                "self_id": 3775141348,
+                "user_id": 2703794350,
+                "time": 1767524138,
+                "message_id": 1631201599,
+                "message_seq": 1631201599,
+                "real_id": 1631201599,
+                "real_seq": "76778",
+                "message_type": "group",
+                "sender": {
+                    "user_id": 2703794350,
+                    "nickname": "ふらまりん",
+                    "card": "average Plan⑨ enjoyer",
+                    "role": "member"
+                },
+                "raw_message": "这么强",
+                "font": 14,
+                "sub_type": "normal",
+                "message": [
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "这么强"
+                        }
+                    }
+                ],
+                "message_format": "array",
+                "post_type": "message",
+                "group_id": 979885968
+            },
+            {
+                "self_id": 3775141348,
+                "user_id": 1572087810,
+                "time": 1767528295,
+                "message_id": 974382605,
+                "message_seq": 974382605,
+                "real_id": 974382605,
+                "real_seq": "76779",
+                "message_type": "group",
+                "sender": {
+                    "user_id": 1572087810,
+                    "nickname": "Spriple",
+                    "card": "",
+                    "role": "admin"
+                },
+                "raw_message": "强啊",
+                "font": 14,
+                "sub_type": "normal",
+                "message": [
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "强啊"
+                        }
+                    }
+                ],
+                "message_format": "array",
+                "post_type": "message",
+                "group_id": 979885968
+            }
+        ]
+    },
+    "message": "",
+    "wording": "",
+    "echo": null
+}

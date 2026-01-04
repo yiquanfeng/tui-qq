@@ -1,13 +1,13 @@
-use core::time;
-use std::{io::{self, Read, stdin, stdout}, thread::sleep};
+use std::{io::{self, stdout}};
 use crossterm::{
     event::{self, Event, KeyCode, KeyEventKind},
     terminal::{
-    enable_raw_mode, EnterAlternateScreen},
+    enable_raw_mode, EnterAlternateScreen, disable_raw_mode, LeaveAlternateScreen
+    },
     ExecutableCommand,
 };
 use ratatui::{
-    Terminal, backend::{CrosstermBackend, TestBackend}, prelude::*, widgets::{Block, Borders, List, ListItem, Paragraph}
+    Terminal, backend::CrosstermBackend, prelude::*, widgets::{Block, Borders, Paragraph}
 };
 
 fn main() -> io::Result<()> {
@@ -46,6 +46,10 @@ fn main() -> io::Result<()> {
             }
         }
     }
+
+    disable_raw_mode()?;
+    stdout().execute(LeaveAlternateScreen)?;
+
     Ok(())
 }
 
@@ -73,6 +77,7 @@ fn ui_painting(frame: &mut Frame, msgs: &str) {
     ])
     .split(app_layout[1]);
 
+    // 左侧条状群组列表
     let groups_list = Paragraph::new("Groups List")
         .style(Style::default().fg(Color::Cyan))
         .block(
@@ -81,6 +86,8 @@ fn ui_painting(frame: &mut Frame, msgs: &str) {
                 .title("群组列表")
         );
 
+    
+    // 右侧下方输入框
     let input = Paragraph::new(msgs)
         .style(Style::default().fg(Color::Yellow))
         .block(
